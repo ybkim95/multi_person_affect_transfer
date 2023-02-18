@@ -1,14 +1,18 @@
-# EverybodyDanceNow reproduced in pytorch
+# Multi-person affect semantic transfer from video-to-video.
 
-Written by Peihuan Wu, Jinghong Lin, Yutao Liao, Wei Qing and Yan Xu, including normalization and face enhancement parts.<br>
-<br>
-We train and evaluate on Ubuntu 16.04, so if you don't have linux environment, you can set `nThreads=0` in `EverybodyDanceNow_reproduce_pytorch/src/config/train_opt.py`.
+![image](https://user-images.githubusercontent.com/45308022/219901287-33f168b0-19bc-4944-add8-d7072b15ca25.png)
+(Image from Do as we do paper [1])
+
+Building on top of previous motion transfer from video-to-video, in this work, we transfer affect semantics in dyadic interactions from video-to-video to bridging the gap between the source and the target domain videos as well as to identify the components of affect semantics.
+
 
 ## Reference:
 
-[nyoki-mtl](https://github.com/nyoki-mtl) pytorch-EverybodyDanceNow
+[1] [Do as we do](https://arxiv.org/pdf/2104.04721v1.pdf) Do as we do: Multi Person Video-to-Video Transfer
 
-[Lotayou](https://github.com/Lotayou) everybody_dance_now_pytorch
+[2] [nyoki-mtl](https://github.com/nyoki-mtl) pytorch-EverybodyDanceNow
+
+[3] [Lotayou](https://github.com/Lotayou) everybody_dance_now_pytorch
 
 ## Pre-trained models and source video
 * Download vgg19-dcbb9e9d.pth.crdownload [here](https://drive.google.com/file/d/1JG-pLXkPmyx3o4L33rG5WMJKMoOjlXhl/view?usp=sharing) and put it in `./src/pix2pixHD/models/`  <br>
@@ -55,11 +59,10 @@ This is comparision in original (left), generated image before face enhancement 
 ## TODO
 
 - Pose estimation
-    - [x] Pose
-    - [x] Face
+    - [ ] Multi-person Pose Estimation
     - [ ] Hand
 - [x] pix2pixHD
-- [x] FaceGAN
+- [x] SimSwapHD
 - [ ] Temporal smoothing
 
 ## Environments
