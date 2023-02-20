@@ -5,6 +5,21 @@
 
 Building on top of previous motion transfer from video-to-video, in this work, we transfer affect semantics in dyadic interactions from video-to-video to bridging the gap between the source and the target domain videos as well as to identify the components of affect semantics.
 
+### Procedure
+
+1. `python3 make_source.py` <br>
+
+2. `python3 make_target.py` <br>
+
+3. `python3 train_pose2vid.py` <br>
+
+4. `python3 normalization.py` <br>
+
+5. `python3 transfer.py` <br>
+
+6. `python3 6.py` <br>
+
+
 
 ## Reference:
 
