@@ -20,15 +20,6 @@ Building on top of previous motion transfer from video-to-video, in this work, w
 6. `python3 6.py` <br>
 
 
-
-## Reference:
-
-[1] [Do as we do](https://arxiv.org/pdf/2104.04721v1.pdf) Do as we do: Multi Person Video-to-Video Transfer
-
-[2] [nyoki-mtl](https://github.com/nyoki-mtl) pytorch-EverybodyDanceNow
-
-[3] [Lotayou](https://github.com/Lotayou) everybody_dance_now_pytorch
-
 ## Pre-trained models and source video
 * Download vgg19-dcbb9e9d.pth.crdownload [here](https://drive.google.com/file/d/1JG-pLXkPmyx3o4L33rG5WMJKMoOjlXhl/view?usp=sharing) and put it in `./src/pix2pixHD/models/`  <br>
 
@@ -85,3 +76,12 @@ Ubuntu 16.04 <br>
 Python 3.6.5 <br>
 Pytorch 0.4.1  <br>
 OpenCV 3.4.4  <br>
+
+
+## Reference:
+
+[1] [Do as we do](https://arxiv.org/pdf/2104.04721v1.pdf) Do as we do: Multi Person Video-to-Video Transfer
+
+[2] [nyoki-mtl](https://github.com/nyoki-mtl) pytorch-EverybodyDanceNow
+
+[3] [Lotayou](https://github.com/Lotayou) everybody_dance_now_pytorch
